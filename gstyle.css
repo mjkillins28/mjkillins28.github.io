@@ -1,0 +1,145 @@
+html, body {
+    font-family: arial;
+    padding: 0 2em;
+    font-size: 18px;
+    color: #aaa;
+    text-align:center;
+}
+
+header {
+    background-color: #000;
+    padding-top: 10px;
+}
+
+header h1 {
+    text-align: right;
+    margin-right: 10px;
+}
+
+nav {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+li a:link, li a:active, li a:hover, li a:visited {
+    text-decoration: none;
+    color: #000;
+}
+li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(images/backgrounds/gback.jpg)
+}
+
+
+h1 {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+p {
+    font-weight: 100;
+    color: #888;
+    margin-bottom: 45px;
+}
+
+.footer { 
+    font-style: italic;
+    margin-top: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ------------------------------------------------------------------------------*/
+.thumb {
+    max-height: 171px;
+    border: solid 6px rgba(5, 5, 5, 0.8);
+}
+
+.lightbox {
+    position: fixed;
+    z-index: 999;
+    height: 0;
+    width: 0;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    margin-top: 2%;
+    opacity: 0;
+}
+
+.lightbox:target {
+    /** Remove default browser outline */
+    outline: none;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    
+}
+
+.lightbox:target img {
+    border: solid 5px rgba(77, 77, 77, 0.8);
+    opacity: 15;
+    webkit-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+}
+
+.light-btn {
+    font-size: 40px; 
+    font-style: oblique;
+    color: #a5a5a5;
+    cursor: pointer;
+    vertical-align: middle;
+    position: absolute;
+    top: 45%;
+    z-index: 99;
+}
+
+.light-btn:hover {
+    color: #ffffff;
+}
+
+.btn-prev {
+    left: 7%;
+}
+
+.btn-next {
+    right: 7%;
+}
+
+.btn-close {
+    font-size: 25px;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    color: #a5a5a5;
+    text-decoration: none;
+}
+
+.btn-close:hover {
+    color: #ffffff;
+}
