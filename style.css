@@ -60,9 +60,13 @@ section img {
 	max-width: 100%;
 }
 aside {
-	width: 35%;
+	width: 30%;
 	padding: 15px;
+	margin: 0 3% 0 0;
 	float: right;
+	text-align: center;
+	word-wrap: break-word;
+	
 }
 
 footer {
