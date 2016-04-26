@@ -64,10 +64,11 @@ aside {
 	padding: 2%;
 	float: right;
 	word-wrap: break-word;
+	font-size: 15px;
 	
 }
 p {
-	  font-size: 1.5vmin;
+	  font-size: 2.5vmin;
 }
 footer {
 	text-align: center;

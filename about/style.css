@@ -52,7 +52,7 @@ main {
 
 section {
 	width: 60%;
-	padding: 15px;
+	padding: 1.5%;
 	display: inline-block;
 	background-color: #242226;
 }
@@ -60,11 +60,15 @@ section img {
 	max-width: 100%;
 }
 aside {
-	width: 35%;
-	padding: 15px;
+	width: 30%;
+	padding: 2%;
 	float: right;
-	font-size: 13px;
-
+	word-wrap: break-word;
+	font-size: 15px;
+	
+}
+p {
+	  font-size: 2.5vmin;
 }
 
 footer {
