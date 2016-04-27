@@ -19,6 +19,9 @@ header h1 {
 	text-align: right;
 	margin-right: 10px;
 }
+header h2 {
+	font-style: italic;
+}
 
 nav {
 	background-color: #ccc;
@@ -62,7 +65,7 @@ section img {
 aside {
 	width: 30%;
 	padding: 2%;
-	float: right;
+	float: left;
 	word-wrap: break-word;
 	font-size: 15px;
 	

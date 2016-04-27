@@ -16,6 +16,10 @@ header h1 {
     margin-right: 10px;
 }
 
+header h2 {
+    font-style: italic;
+}
+
 nav {
     background-color: #ccc;
     padding: 10px;
